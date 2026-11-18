@@ -16,14 +16,6 @@ section{padding:78px 0;border-top:1px solid var(--line)}.section-head{text-align
 .ai-layout{display:grid;grid-template-columns:1.1fr .9fr;gap:25px;align-items:center}.ai-image{width:100%;height:390px;object-fit:cover;object-position:top;border-radius:24px;border:1px solid #c4b5fd44}.skill{margin-top:20px}.skilltop{display:flex;justify-content:space-between;font-weight:800;margin-bottom:8px}.bar{height:9px;border-radius:20px;background:#ffffff18;overflow:hidden}.bar span{display:block;height:100%;border-radius:20px;background:linear-gradient(90deg,#8b5cf6,#f0abfc)}
 footer{text-align:center;padding:38px 0;color:var(--muted);border-top:1px solid var(--line)}footer b{color:var(--pink)}
 
-/* Mode editor */
-.editor-launch{position:fixed;right:18px;bottom:18px;z-index:30;border:1px solid #ffffff35;border-radius:999px;padding:13px 19px;background:linear-gradient(100deg,#8b5cf6,#d946ef);color:white;font:900 .92rem Nunito;box-shadow:0 10px 35px #0008;cursor:pointer}
-.editor-bar{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:31;display:none;align-items:center;gap:9px;flex-wrap:wrap;justify-content:center;width:min(94%,720px);padding:12px;background:#211533f2;border:1px solid #c4b5fd66;border-radius:18px;box-shadow:0 15px 45px #0009;backdrop-filter:blur(14px)}
-.editor-bar.show{display:flex}.editor-bar button{border:0;border-radius:30px;padding:10px 15px;font:800 .85rem Nunito;cursor:pointer;color:white;background:#6841a5}.editor-bar .save{background:linear-gradient(100deg,#8b5cf6,#d946ef)}.editor-hint{font-size:.78rem;color:#e9d5ff;width:100%;text-align:center}
-body.editing [data-editable="text"]{outline:1px dashed #e9a8ff;outline-offset:4px;border-radius:4px;cursor:text}
-body.editing img[data-editable="image"]{outline:3px dashed #e9a8ff;outline-offset:4px;cursor:pointer}
-body.editing img[data-editable="image"]:hover{filter:brightness(.78)}
-@media(max-width:760px){.editor-launch{right:12px;bottom:12px}.editor-bar{bottom:10px}.editor-hint{font-size:.7rem}}
 @media(max-width:760px){.links{gap:12px;font-size:.75rem}.hero{grid-template-columns:1fr;text-align:center;padding:55px 0}.hero p{margin:auto}.hero-art img{height:350px;width:290px}.split,.ai-layout{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.character,.ai-image{height:300px}section{padding:58px 0}}
 @media(max-width:430px){.links{gap:8px}.links a{font-size:.68rem}.navin{height:62px}.logo{font-size:.95rem}}
 </style>
@@ -39,89 +31,15 @@ body.editing img[data-editable="image"]:hover{filter:brightness(.78)}
 <section id="hobi"><div class="section-head"><small>02 — MY HOBBY</small><h2>Hobiku</h2><p>Hal yang paling kusukai saat waktu luang</p></div><div class="grid"><article class="card tile"><img src="https://images6.alphacoders.com/127/1277222.jpg" alt="Karakter Kanade dari Beast Tamer"><div class="inside"><h3>Menonton Anime 🍿</h3><p>Aku suka menonton anime karena ceritanya menarik, karakternya beragam, dan dunia fantasinya bisa menjadi sumber inspirasi.</p></div></article><article class="card tile"><img src="https://images.alphacoders.com/129/1293314.png" alt="Karakter Tania dari Beast Tamer"><div class="inside"><h3>Menjelajahi Dunia Anime ✨</h3><p>Aku senang mengenal karakter, desain, dan berbagai dunia unik yang ada di anime.</p></div></article><article class="card tile"><img src="https://vulplex.com/images/featured/Sora-Luna-Kanade-Tania-Beast-Tamer-Wallpaper-Pink-Sparkling-Bubble-Background-6890edc481bb3.jpg" alt="Karakter anime Beast Tamer"><div class="inside"><h3>Mencari Inspirasi 🎨</h3><p>Visual dan cerita anime sering memberiku ide untuk membuat karakter atau ilustrasi baru.</p></div></article></div></section>
 <section id="cita"><div class="section-head"><small>03 — MY DREAM</small><h2>Cita-citaku</h2><p>Impian yang ingin kuwujudkan</p></div><div class="card split"><img class="character" src="https://images.alphacoders.com/129/1293314.png" alt="Karakter Luna dari Beast Tamer"><div><h3>Menjadi Programmer VTuber 💻</h3><p>Aku bercita-cita menjadi Programmer VTuber. Aku ingin menggabungkan kemampuan pemrograman dengan dunia virtual, membuat teknologi dan pengalaman interaktif, serta membangun identitas VTuber yang kreatif.</p><span class="tag">Programming</span><span class="tag">Virtual Creator</span><span class="tag">Technology</span></div></div></section>
 <section id="ai"><div class="section-head"><small>04 — AI SKILLS</small><h2>Kelebihanku dalam Menggunakan AI</h2><p>Mengubah ide dan imajinasi menjadi karya anime</p></div><div class="ai-layout"><div class="card"><h3>Kreativitas Anime dengan AI 🤖</h3><p>Aku mampu menggunakan AI untuk membuat berbagai karya yang berhubungan dengan anime, seperti ilustrasi anime, desain karakter, dan Original Character (OC). Aku juga bisa mengembangkan konsep visual berdasarkan ide atau deskripsi yang kuberikan.</p><div class="skill"><div class="skilltop"><span>Ilustrasi anime</span><span>✦</span></div><div class="bar"><span style="width:92%"></span></div></div><div class="skill"><div class="skilltop"><span>Desain karakter & OC</span><span>✦</span></div><div class="bar"><span style="width:88%"></span></div></div><div class="skill"><div class="skilltop"><span>Eksplorasi ide anime</span><span>✦</span></div><div class="bar"><span style="width:90%"></span></div></div></div><img class="ai-image" src="https://funime.de/wp-content/uploads/sites/6/2024/08/BeastTamer03.jpg" alt="Ilustrasi karakter anime Beast Tamer"></div></section>
-<section id="karya"><div class="section-head"><small>05 — MY GALLERY</small><h2>Karya-Karyaku</h2><p>Galeri pribadi untuk menyimpan ilustrasi, desain karakter, dan karya kreatifmu</p></div>
-<div class="card" style="text-align:center;margin-bottom:24px"><h3>Tambahkan Foto Karya 📸</h3><p>Pilih satu atau beberapa foto dari perangkatmu. Foto yang ditambahkan akan tersimpan di browser ini.</p><label for="workUpload" class="cta" style="cursor:pointer">＋ Pilih Foto</label><input id="workUpload" type="file" accept="image/*" multiple style="display:none"><p id="uploadStatus" style="font-size:.85rem;margin-top:14px">Format gambar: JPG, PNG, WEBP, dan lainnya.</p></div>
-<div id="workGallery" class="grid"><div id="emptyGallery" class="card" style="grid-column:1/-1;text-align:center;color:var(--muted)">Belum ada karya. Yuk, tambahkan foto pertamamu! 💜</div></div></section>
+<section id="karya"><div class="section-head"><small>05 — MY GALLERY</small><h2>Karya-Karyaku</h2><p>Galeri ilustrasi, desain karakter, dan karya kreatif</p></div>
+<div id="workGallery" class="grid"><div id="emptyGallery" class="card" style="grid-column:1/-1;text-align:center;color:var(--muted)">Galeri karya akan segera tersedia. 💜</div></div></section>
 </main>
 <footer><div class="wrap">Dibuat dengan 💜 oleh <b>LYAN</b> · Personal Portfolio</div></footer>
 
 <script>
-// Galeri menggunakan IndexedDB agar foto tetap tersimpan setelah halaman dimuat ulang.
-(() => {
- const input = document.getElementById('workUpload');
- const gallery = document.getElementById('workGallery');
- const status = document.getElementById('uploadStatus');
- const dbRequest = indexedDB.open('LyanPortfolioGallery', 1);
- let db;
- dbRequest.onupgradeneeded = e => e.target.result.createObjectStore('photos', {keyPath:'id', autoIncrement:true});
- dbRequest.onsuccess = e => { db = e.target.result; renderPhotos(); };
- dbRequest.onerror = () => { status.textContent = 'Penyimpanan foto tidak tersedia di browser ini.'; };
- function renderPhotos(){
-   const tx=db.transaction('photos','readonly');
-   tx.objectStore('photos').getAll().onsuccess=e=>{
-     gallery.innerHTML=''; const photos=e.target.result;
-     if(!photos.length){gallery.innerHTML='<div class="card" style="grid-column:1/-1;text-align:center;color:var(--muted)">Belum ada karya. Yuk, tambahkan foto pertamamu! 💜</div>';return;}
-     photos.forEach(photo=>{
-       const card=document.createElement('article'); card.className='card tile';
-       const img=document.createElement('img'); img.src=URL.createObjectURL(photo.image); img.alt=photo.name;
-       const inside=document.createElement('div'); inside.className='inside';
-       const title=document.createElement('h3'); title.textContent=photo.name;
-       const remove=document.createElement('button'); remove.type='button'; remove.textContent='Hapus foto';
-       remove.style.cssText='margin-top:12px;border:1px solid #f0abfc66;background:#a855f722;color:#f0abfc;border-radius:30px;padding:8px 14px;font:800 .85rem Nunito;cursor:pointer';
-       remove.addEventListener('click',()=>{if(confirm('Hapus foto ini dari galeri?')){const del=db.transaction('photos','readwrite');del.objectStore('photos').delete(photo.id);del.oncomplete=renderPhotos;}});
-       inside.append(title,remove);card.append(img,inside);gallery.append(card);
-     });
-   };
- }
- input.addEventListener('change',()=>{
-   const files=Array.from(input.files||[]).filter(f=>f.type.startsWith('image/'));
-   if(!files.length)return;
-   const tx=db.transaction('photos','readwrite'); const store=tx.objectStore('photos');
-   files.forEach(file=>store.add({name:file.name.replace(/\.[^.]+$/,''),image:file}));
-   tx.oncomplete=()=>{status.textContent=files.length+' foto berhasil ditambahkan ke galeri!';renderPhotos();input.value='';};
-   tx.onerror=()=>{status.textContent='Gagal menyimpan foto. Coba pilih gambar yang lebih kecil.';};
- });
-})();
+// Galeri ditampilkan dalam mode baca-saja untuk pengunjung.
+// Fitur unggah/hapus akan diaktifkan kembali setelah autentikasi pemilik dan database online dipasang.
 </script>
 
-
-<button class="editor-launch" id="editorLaunch" type="button">✎ Edit Website</button>
-<div class="editor-bar" id="editorBar" aria-live="polite">
- <div class="editor-hint">Mode edit aktif: ketuk teks untuk mengubahnya, ketuk gambar untuk menggantinya.</div>
- <button class="save" id="saveEdits" type="button">💾 Simpan Perubahan</button>
- <button id="finishEdits" type="button">Selesai</button>
- <button id="resetEdits" type="button">Reset</button>
-</div>
-<input id="editorImagePicker" type="file" accept="image/*" hidden>
-<script>
-// Editor portofolio: perubahan teks disimpan di localStorage, gambar di IndexedDB.
-(() => {
- const launch=document.getElementById('editorLaunch'), bar=document.getElementById('editorBar');
- const save=document.getElementById('saveEdits'), finish=document.getElementById('finishEdits');
- const reset=document.getElementById('resetEdits'), picker=document.getElementById('editorImagePicker');
- const textSelector='h1,h2,h3,p,small,.eyebrow,.tag,.skilltop span,.logo,.links a,.cta,footer b';
- let editing=false, selectedImage=null, imageDb=null;
- const originalTexts=[];
- const openReq=indexedDB.open('LyanPortfolioEditor',1);
- openReq.onupgradeneeded=e=>e.target.result.createObjectStore('images');
- openReq.onsuccess=e=>{imageDb=e.target.result; restoreImages();};
- function textNodes(){return Array.from(document.querySelectorAll(textSelector)).filter(el=>!el.closest('.editor-bar')&&!el.closest('nav .logo span'));}
- function setup(){
-  textNodes().forEach((el,i)=>{el.dataset.editable='text';originalTexts[i]=el.innerHTML;});
-  document.querySelectorAll('img').forEach((img,i)=>{img.dataset.editable='image';img.dataset.imageIndex=String(i);img.title='Klik untuk mengganti gambar saat mode edit aktif';});
-  const saved=localStorage.getItem('lyanPortfolioTexts');
-  if(saved){try{const values=JSON.parse(saved);textNodes().forEach((el,i)=>{if(values[i]!==undefined)el.innerHTML=values[i];});}catch(err){}}
- }
- function restoreImages(){if(!imageDb)return;const tx=imageDb.transaction('images','readonly');const req=tx.objectStore('images').getAll();req.onsuccess=()=>{const keysTx=imageDb.transaction('images','readonly');const store=keysTx.objectStore('images');document.querySelectorAll('img[data-image-index]').forEach(img=>{store.get(img.dataset.imageIndex).onsuccess=e=>{const blob=e.target.result;if(blob){if(img.dataset.objectUrl)URL.revokeObjectURL(img.dataset.objectUrl);const url=URL.createObjectURL(blob);img.src=url;img.dataset.objectUrl=url;}};});};}
- function setMode(value){editing=value;document.body.classList.toggle('editing',editing);bar.classList.toggle('show',editing);launch.style.display=editing?'none':'block';textNodes().forEach(el=>el.contentEditable=editing?'true':'false');}
- launch.addEventListener('click',()=>setMode(true));
- document.querySelectorAll('img').forEach(img=>img.addEventListener('click',()=>{if(!editing)return;selectedImage=img;picker.click();}));
- picker.addEventListener('change',()=>{const file=picker.files&&picker.files[0];if(!file||!selectedImage||!imageDb)return;const key=selectedImage.dataset.imageIndex;const tx=imageDb.transaction('images','readwrite');tx.objectStore('images').put(file,key);tx.oncomplete=()=>{if(selectedImage.dataset.objectUrl)URL.revokeObjectURL(selectedImage.dataset.objectUrl);const url=URL.createObjectURL(file);selectedImage.src=url;selectedImage.dataset.objectUrl=url;};picker.value='';});
- save.addEventListener('click',()=>{const values=textNodes().map(el=>el.innerHTML);localStorage.setItem('lyanPortfolioTexts',JSON.stringify(values));save.textContent='✓ Tersimpan!';setTimeout(()=>save.textContent='💾 Simpan Perubahan',1600);});
- finish.addEventListener('click',()=>{const values=textNodes().map(el=>el.innerHTML);localStorage.setItem('lyanPortfolioTexts',JSON.stringify(values));setMode(false);});
- reset.addEventListener('click',()=>{if(!confirm('Kembalikan teks dan gambar ke versi awal?'))return;localStorage.removeItem('lyanPortfolioTexts');if(imageDb){const tx=imageDb.transaction('images','readwrite');tx.objectStore('images').clear();tx.oncomplete=()=>location.reload();}else location.reload();});
- setup();
-})();
-</script>
 
 </body></html>
